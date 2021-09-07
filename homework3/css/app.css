@@ -1,6 +1,6 @@
 body {
-    margin:0;
-    padding:0;
+    margin: 5px;
+    padding:5px;
 }
 
 .container {
@@ -52,4 +52,12 @@ body {
 
 aside{
     margin-left: 500px;
+}
+
+a[href^="mailto"]::before {
+  content: "📧 ";
+}
+
+a[href^="tel"]::before {
+  content: "📞 ";
 }
