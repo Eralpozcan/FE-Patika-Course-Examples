@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+
+header img {
+    max-width: 15%;
+    max-height: 15%;
+}
+a {
+    color:inherit;
+    text-decoration: none;
+    
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(29, 180, 250);
+    padding: 35px 100px 0;
+
+}
+
+header h2 {
+    text-transform: uppercase;
+}
+
+header nav{
+    display:flex;
+}
+
+header nav li {
+    margin: 0 30px;
+}
+
+header nav li:first-child{
+    margin-left: 10;
+}
+header nav li:last-child{
+    margin-right: 0;
+}
+
+.nav-bar{
+    font-size: 25px;
+    margin-left: 32%;
+    
+}
+ul,nav {
+    list-style: none;
+    display: flex;
+    align-items: center;  
+}
+
+
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 100px;
+}
+
+section p {
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 35px;
+    padding: 0 20px;
+    line-height: 2;
+}
+
+.banner-place{
+    position: relative;
+    justify-content: center;
+    min-height: 100vh;
+    color: rgb(29, 180, 250);
+    text-align: center;
+}
+
+.banner-place .banner-img{
+    background-image: url("https://picsum.photos/200");
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+}
+
+.banner-place .banner-img{
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+
+.banner-place a.contact-btn {
+    padding: 10px 30px;
+    border: 50px;
+    text-transform: uppercase;
+    color:sandybrown;
+    background:rgb(29, 180, 250,0.8);
+    border-radius: 20px;
+}
