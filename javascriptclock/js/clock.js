@@ -15,7 +15,7 @@ function showTime(){
     let min = today.getMinutes();
     let second = today.getSeconds();
     let day = today.getDay();
-    let dList = ["Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi","Pazar"];
+    let dList = ["Pazar","Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi"];
 
     hour = hour<10 ? "0"+ hour: hour;
     min = min <10 ? "0" + min :min;
